@@ -1,0 +1,415 @@
+
+
+ 1. Product.java
+
+This simple program creates a product with an id, name, and price and displays its details.
+
+Example 1
+
+**Input:**  
+```
+Product ID: 101
+Name: Laptop
+Price: 75000
+```
+
+**Output:**  
+```
+Product Details:
+ID: 101
+Name: Laptop
+Price: 75000
+```
+
+---
+
+### **Example 2**
+
+**Input:**  
+```
+Product ID: 202
+Name: Smartphone
+Price: 25000
+```
+
+**Output:**  
+```
+Product Details:
+ID: 202
+Name: Smartphone
+Price: 25000
+```
+
+---
+
+### **Example 3**
+
+**Input:**  
+```
+Product ID: 303
+Name: Headphones
+Price: 5000
+```
+
+**Output:**  
+```
+Product Details:
+ID: 303
+Name: Headphones
+Price: 5000
+```
+
+---
+
+### **Example 4**
+
+**Input:**  
+```
+Product ID: 404
+Name: Monitor
+Price: 15000
+```
+
+**Output:**  
+```
+Product Details:
+ID: 404
+Name: Monitor
+Price: 15000
+```
+
+---
+
+### **Example 5**
+
+**Input:**  
+```
+Product ID: 505
+Name: Keyboard
+Price: 3000
+```
+
+**Output:**  
+```
+Product Details:
+ID: 505
+Name: Keyboard
+Price: 3000
+```
+
+---
+
+## 2. LibraryManagement.java
+
+This program creates a base class `Book` and two derived classes (`Fiction` and `NonFiction`). It then displays the details of one fiction book and one non-fiction book.
+
+### **Example 1**
+
+**Input:**  
+```
+Book 1:
+Type: Fiction
+Title: Harry Potter
+Author: J.K. Rowling
+Price: 500
+
+Book 2:
+Type: Non-Fiction
+Title: Sapiens
+Author: Yuval Noah Harari
+Price: 700
+```
+
+**Output:**  
+```
+Fiction Book Details:
+Title: Harry Potter
+Author: J.K. Rowling
+Price: 500
+
+Non-Fiction Book Details:
+Title: Sapiens
+Author: Yuval Noah Harari
+Price: 700
+```
+
+---
+
+### **Example 2**
+
+**Input:**  
+```
+Book 1:
+Type: Fiction
+Title: The Hobbit
+Author: J.R.R. Tolkien
+Price: 600
+
+Book 2:
+Type: Non-Fiction
+Title: Educated
+Author: Tara Westover
+Price: 450
+```
+
+**Output:**  
+```
+Fiction Book Details:
+Title: The Hobbit
+Author: J.R.R. Tolkien
+Price: 600
+
+Non-Fiction Book Details:
+Title: Educated
+Author: Tara Westover
+Price: 450
+```
+
+---
+
+### **Example 3**
+
+**Input:**  
+```
+Book 1:
+Type: Fiction
+Title: 1984
+Author: George Orwell
+Price: 300
+
+Book 2:
+Type: Non-Fiction
+Title: Sapiens
+Author: Yuval Noah Harari
+Price: 700
+```
+
+**Output:**  
+```
+Fiction Book Details:
+Title: 1984
+Author: George Orwell
+Price: 300
+
+Non-Fiction Book Details:
+Title: Sapiens
+Author: Yuval Noah Harari
+Price: 700
+```
+
+---
+
+### **Example 4**
+
+**Input:**  
+```
+Book 1:
+Type: Fiction
+Title: To Kill a Mockingbird
+Author: Harper Lee
+Price: 400
+
+Book 2:
+Type: Non-Fiction
+Title: The Immortal Life of Henrietta Lacks
+Author: Rebecca Skloot
+Price: 550
+```
+
+**Output:**  
+```
+Fiction Book Details:
+Title: To Kill a Mockingbird
+Author: Harper Lee
+Price: 400
+
+Non-Fiction Book Details:
+Title: The Immortal Life of Henrietta Lacks
+Author: Rebecca Skloot
+Price: 550
+```
+
+---
+
+### **Example 5**
+
+**Input:**  
+```
+Book 1:
+Type: Fiction
+Title: The Great Gatsby
+Author: F. Scott Fitzgerald
+Price: 350
+
+Book 2:
+Type: Non-Fiction
+Title: A Brief History of Time
+Author: Stephen Hawking
+Price: 600
+```
+
+**Output:**  
+```
+Fiction Book Details:
+Title: The Great Gatsby
+Author: F. Scott Fitzgerald
+Price: 350
+
+Non-Fiction Book Details:
+Title: A Brief History of Time
+Author: Stephen Hawking
+Price: 600
+```
+
+---
+
+## 3. StudentInfoSystem.java
+
+This program uses an abstract class `Person` and derived classes `Student` and `Teacher` to store and display information. It prints details for one student and one teacher.
+
+### **Example 1**
+
+**Input:**  
+```
+Add Student:
+Name: Alice
+Age: 20
+Roll Number: 101
+
+Add Teacher:
+Name: Mr. Smith
+Age: 40
+Subject: Mathematics
+```
+
+**Output:**  
+```
+Student Details:
+Name: Alice
+Age: 20
+Roll Number: 101
+
+Teacher Details:
+Name: Mr. Smith
+Age: 40
+Subject: Mathematics
+```
+
+---
+
+### **Example 2**
+
+**Input:**  
+```
+Add Student:
+Name: Bob
+Age: 21
+Roll Number: 102
+
+Add Teacher:
+Name: Ms. Davis
+Age: 35
+Subject: English
+```
+
+**Output:**  
+```
+Student Details:
+Name: Bob
+Age: 21
+Roll Number: 102
+
+Teacher Details:
+Name: Ms. Davis
+Age: 35
+Subject: English
+```
+
+---
+
+### **Example 3**
+
+**Input:**  
+```
+Add Student:
+Name: Charlie
+Age: 22
+Roll Number: 103
+
+Add Teacher:
+Name: Mrs. Johnson
+Age: 45
+Subject: History
+```
+
+**Output:**  
+```
+Student Details:
+Name: Charlie
+Age: 22
+Roll Number: 103
+
+Teacher Details:
+Name: Mrs. Johnson
+Age: 45
+Subject: History
+```
+
+---
+
+### **Example 4**
+
+**Input:**  
+```
+Add Student:
+Name: Diana
+Age: 19
+Roll Number: 104
+
+Add Teacher:
+Name: Mr. Brown
+Age: 50
+Subject: Physics
+```
+
+**Output:**  
+```
+Student Details:
+Name: Diana
+Age: 19
+Roll Number: 104
+
+Teacher Details:
+Name: Mr. Brown
+Age: 50
+Subject: Physics
+```
+
+---
+
+### **Example 5**
+
+**Input:**  
+```
+Add Student:
+Name: Evan
+Age: 23
+Roll Number: 105
+
+Add Teacher:
+Name: Dr. Green
+Age: 55
+Subject: Chemistry
+```
+
+**Output:**  
+```
+Student Details:
+Name: Evan
+Age: 23
+Roll Number: 105
+
+Teacher Details:
+Name: Dr. Green
+Age: 55
+Subject: Chemistry
